@@ -1,0 +1,34 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-18df508fd6b-b8cf95e0c6fabdd": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "db_origen",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5454",
+				"database": "db_origen",
+				"url": "jdbc:mysql://localhost:5454/db_origen",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
